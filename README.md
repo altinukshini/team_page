@@ -1,4 +1,5 @@
 team_page
 =========
 
-html, javascript team page
+html, javascript team page...
+More info to come, download the code to see what it does...
