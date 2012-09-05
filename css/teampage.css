@@ -1,0 +1,149 @@
+body {
+    background: none repeat scroll 0 0 #F4F4F4;
+    color: #262626;
+    font: 12px/18px Verdana,sans-serif;
+    background:#222 url(mcs_demo_bg.jpg) no-repeat;
+}
+h1 {
+    font-family: "Yanone Kaffeesatz",Arial,sans-serif; 
+    font-size: 35px;
+}
+h2 {
+    font-family: "Yanone Kaffeesatz",Arial,sans-serif; 
+    font-size: 25px;
+}
+h3 {    
+    font-family: "Yanone Kaffeesatz",Arial,sans-serif; 
+    font-size: 20px;
+}
+h4 {    
+    font-family: "Yanone Kaffeesatz",Arial,sans-serif; 
+    font-size: 15px;
+}
+span.name {    
+    font-family: "Yanone Kaffeesatz",Arial,sans-serif; 
+    font-size: 30px !important;
+}
+hr {
+    background: none repeat scroll 0 0 #E5E5E5;
+    border: medium none;
+    height: 1px;
+    line-height: 1px;
+    margin-bottom: 20px;
+    margin-top: -8px;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 7px 0;
+}
+a {
+    outline: medium none;
+}
+#content {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CBCBCB;
+    margin: 40px auto 40px;
+    padding: 0 60px 30px;
+    width: 720px;
+}
+#fancybox-outer {
+    border-radius: 10px 10px 10px 10px;
+}
+#fancybox-content {
+    border: 0 none;
+    padding: 10px;
+}
+.bio img {
+    border-radius: 5px 5px 5px 5px;
+    /*bottom: 0;*/
+    margin: auto 0px;
+    /*position: absolute;*/
+    /*top: 0;*/
+    float:left;
+}
+.bio .text {
+    float: right;
+    margin-left: 1em;
+    margin-right: 5px;
+    width: 290px;
+}
+.bio .text .name {
+    display: block;
+    font-size: 1.725em;
+    font-weight: 600;
+    margin-bottom: 0.25em;
+    margin-top: 0.25em;
+}
+.bio .text .job-title {
+    color: #777777;
+    display: block;
+    font-size: 1.25em;
+    font-style: italic;
+}
+.bio .text .department {
+    color: #4E96D1;
+    display: block;
+}
+.bio div.text div.contactInfo {
+    margin: 10px 0;
+}
+.bio .text a {
+    color: #444444;
+    text-decoration: none;
+}
+.bio .text a:hover {
+    color: #4E96D1;
+}
+#profile-holder {
+    background-color: #FAFAFA;
+    border: 1px solid #BBBBBB;
+    box-shadow: 0 0 10px #DDDDDD;
+    display: inline-table;
+    margin: 10px 12px 15px;
+    padding: 4px 4px 0;
+}
+#profile-name {
+    border-bottom: 1px solid #BBBBBB;
+    color: #4E96D1;
+    display: block;
+    font-family: sans-serif, verdana;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+img.swapImage {
+    border: 1px solid transparent;
+}
+img.swapImage, #profile-holder {
+    border-radius: 3px 3px 3px 3px;
+}
+img.swapImage:hover {
+    box-shadow: 0 0 10px #E7E7E7;
+}
+#profile-holder:hover {
+    border: 1px solid #4E96D1;
+    box-shadow: 0 0 10px #BBBBBB;
+}
+.text {
+    border-left: 1.5px solid #4E96D1;
+    height: 400px;
+    padding-left: 10px;
+}
+#fancybox-wrap {
+    width: 720px !important;
+}
+#fancybox-content {
+    width: 700px !important;
+}
+.blurb {
+    height: 270px; 
+    border: 0px dashed #09C; 
+    padding: 0 10px 0 0; 
+    overflow: visible;
+}
+#snetworks {
+    text-align: center;
+}

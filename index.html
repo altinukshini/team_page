@@ -1,0 +1,302 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="imagetoolbar" content="no" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.4.3.min.js"%3E%3C/script%3E'))</script>
+	<script>!window.jQuery && document.write(unescape('%3Cscript src="js/jquery-1.7.2.min.js"%3E%3C/script%3E'))</script>
+	<script>!window.jQuery.ui && document.write(unescape('%3Cscript src="js/jquery-ui-1.8.21.custom.min.js"%3E%3C/script%3E'))</script>
+
+	<script src="js/jquery.mousewheel.min.js"></script>
+	<script src="js/jquery.mCustomScrollbar.js"></script>
+
+	<script type="text/javascript" src="js/jquery.metadata.min.js"></script>
+	<script type="text/javascript" src="js/jquery.swapimage.min.js"></script>
+	<script type="text/javascript" src="js/fancybox_teampage/jquery.fancybox-1.3.4.pack.js"></script>
+ 	<style type="text/css">
+ 	@import url(css/teampage.css);
+ 	@import url(js/fancybox_teampage/jquery.fancybox-1.3.4.css);
+ 	@import url(css/custom_scrollbar.css);
+	@import url(http://fonts.googleapis.com/css?family=Lobster);
+	@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:extralight);
+	</style>
+
+ 	<script>
+		(function($){
+			$(window).load(function(){
+				/* custom scrollbar fn call */
+
+				$(".blurb").mCustomScrollbar({
+					scrollEasing:"easeOutQuint",
+					autoDraggerLength:false
+				});
+			});
+		})(jQuery);
+	</script>
+
+ 	<script type="text/javascript">
+		$(document).ready(function() {
+			$("a.profile").fancybox({
+				'transitionIn'		: 'fade', // elastic, none, ease, fade
+				'transitionOut'		: 'fade'
+			});
+		});
+	</script>
+	<script type="text/javascript">
+		$.swapImage(".swapImage");
+	</script>
+
+</head>
+<body>
+<div id="content">
+	<h1>Team Page</h1>
+	<hr />
+
+<!-- ======== THUMBNAIL IMAGES ======== -->
+
+		<!-- ======= BOARD MEMBERS ======== -->
+		<div id="profile-holder">
+			<span id="profile-name">Nicolas Cage</span><a class="profile" href="#NicolasCage-bio">
+			<img title="Click" class="swapImage {src: 'images/default_thumb.png'}" src="images/default_thumb_g.png" alt="first image" /></a><br />
+			
+			<div id="snetworks">
+				<a href="mailto:hisemail@email.com"><img title="hisemail@email.com" class="swapImage {src: 'icons/email_b.png'}" src="icons/email_g.png" alt="email" /></a> 
+				<a href="https://www.facebook.com/pages/nicolas-cage-fans/41072651865" target="new_blank"><img class="swapImage {src: 'icons/fb_b.png'}" src="icons/fb_g.png" alt="facebook" /></a>
+				<a href="http://twitter.com/Cage_Nicolas" target="new_blank"><img class="swapImage {src: 'icons/tw_b.png'}" src="icons/tw_g.png" alt="twitter" /></a><br />
+			</div>
+		</div>
+		
+		<div id="profile-holder">
+			<span id="profile-name">Morgan Freeman</span><a class="profile" href="#MorganFreeman-bio">
+			<img title="Click" class="swapImage {src: 'images/default_thumb.png'}" src="images/default_thumb_g.png" alt="first image" /></a><br />
+			
+			<div id="snetworks">
+				<a href="mailto:hisemail@email.com"><img title="hisemail@email.com" class="swapImage {src: 'icons/email_b.png'}" src="icons/email_g.png" alt="email" /></a> 
+				<a href="https://www.facebook.com/MorganFreeman" target="new_blank"><img class="swapImage {src: 'icons/fb_b.png'}" src="icons/fb_g.png" alt="facebook" /></a>
+				<a href="http://twitter.com/TheRealMorganF" target="new_blank"><img class="swapImage {src: 'icons/tw_b.png'}" src="icons/tw_g.png" alt="twitter" /></a><br />
+			</div>
+		</div>
+
+		<div id="profile-holder">
+			<span id="profile-name">Will Smith</span><a class="profile" href="#WillSmith-bio">
+			<img title="Click" class="swapImage {src: 'images/default_thumb.png'}" src="images/default_thumb_g.png" alt="first image" /></a><br />
+			
+			<div id="snetworks">
+				<a href="mailto:hisemail@email.com"><img title="hisemail@email.com" class="swapImage {src: 'icons/email_b.png'}" src="icons/email_g.png" alt="email" /></a> 
+				<a href="https://www.facebook.com/WillSmith" target="new_blank"><img class="swapImage {src: 'icons/fb_b.png'}" src="icons/fb_g.png" alt="facebook" /></a>
+				<a href="http://twitter.com/_WillSmith_" target="new_blank"><img class="swapImage {src: 'icons/tw_b.png'}" src="icons/tw_g.png" alt="twitter" /></a><br />
+			</div>
+		</div>
+
+		<div id="profile-holder">
+			<span id="profile-name">Bruce Willis</span><a class="profile" href="#BruceWillis-bio">
+			<img title="Click" class="swapImage {src: 'images/default_thumb.png'}" src="images/default_thumb_g.png" alt="first image" /></a><br />
+			
+			<div id="snetworks">
+				<a href="mailto:hisemail@email.com"><img title="hisemail@email.com" class="swapImage {src: 'icons/email_b.png'}" src="icons/email_g.png" alt="email" /></a> 
+				<a href="https://www.facebook.com/pages/Bruce-Willis/112130828803599" target="new_blank"><img class="swapImage {src: 'icons/fb_b.png'}" src="icons/fb_g.png" alt="facebook" /></a>
+				<a href="http://twitter.com/BruceyWillis" target="new_blank"><img class="swapImage {src: 'icons/tw_b.png'}" src="icons/tw_g.png" alt="twitter" /></a><br />
+			</div>
+		</div>
+
+
+		<!-- ======= MANAGEMENT TEAM ======== -->
+		<h3>DEPARTMENT NAME</h3><hr>
+		<div id="profile-holder">
+			<span id="profile-name">Nicolas Cage</span><a class="profile" href="#NicolasCage-bio">
+			<img title="Click" class="swapImage {src: 'images/default_thumb.png'}" src="images/default_thumb_g.png" alt="first image" /></a><br />
+			
+			<div id="snetworks">
+				<a href="mailto:hisemail@email.com"><img title="hisemail@email.com" class="swapImage {src: 'icons/email_b.png'}" src="icons/email_g.png" alt="email" /></a> 
+				<a href="https://www.facebook.com/pages/nicolas-cage-fans/41072651865" target="new_blank"><img class="swapImage {src: 'icons/fb_b.png'}" src="icons/fb_g.png" alt="facebook" /></a>
+				<a href="http://twitter.com/Cage_Nicolas" target="new_blank"><img class="swapImage {src: 'icons/tw_b.png'}" src="icons/tw_g.png" alt="twitter" /></a><br />
+			</div>
+		</div>
+		
+		<div id="profile-holder">
+			<span id="profile-name">Morgan Freeman</span><a class="profile" href="#MorganFreeman-bio">
+			<img title="Click" class="swapImage {src: 'images/default_thumb.png'}" src="images/default_thumb_g.png" alt="first image" /></a><br />
+			
+			<div id="snetworks">
+				<a href="mailto:hisemail@email.com"><img title="hisemail@email.com" class="swapImage {src: 'icons/email_b.png'}" src="icons/email_g.png" alt="email" /></a> 
+				<a href="https://www.facebook.com/MorganFreeman" target="new_blank"><img class="swapImage {src: 'icons/fb_b.png'}" src="icons/fb_g.png" alt="facebook" /></a>
+				<a href="http://twitter.com/TheRealMorganF" target="new_blank"><img class="swapImage {src: 'icons/tw_b.png'}" src="icons/tw_g.png" alt="twitter" /></a><br />
+			</div>
+		</div>
+
+		<div id="profile-holder">
+			<span id="profile-name">Will Smith</span><a class="profile" href="#WillSmith-bio">
+			<img title="Click" class="swapImage {src: 'images/default_thumb.png'}" src="images/default_thumb_g.png" alt="first image" /></a><br />
+			
+			<div id="snetworks">
+				<a href="mailto:hisemail@email.com"><img title="hisemail@email.com" class="swapImage {src: 'icons/email_b.png'}" src="icons/email_g.png" alt="email" /></a> 
+				<a href="https://www.facebook.com/WillSmith" target="new_blank"><img class="swapImage {src: 'icons/fb_b.png'}" src="icons/fb_g.png" alt="facebook" /></a>
+				<a href="http://twitter.com/_WillSmith_" target="new_blank"><img class="swapImage {src: 'icons/tw_b.png'}" src="icons/tw_g.png" alt="twitter" /></a><br />
+			</div>
+		</div>
+
+		<div id="profile-holder">
+			<span id="profile-name">Bruce Willis</span><a class="profile" href="#BruceWillis-bio">
+			<img title="Click" class="swapImage {src: 'images/default_thumb.png'}" src="images/default_thumb_g.png" alt="first image" /></a><br />
+			
+			<div id="snetworks">
+				<a href="mailto:hisemail@email.com"><img title="hisemail@email.com" class="swapImage {src: 'icons/email_b.png'}" src="icons/email_g.png" alt="email" /></a> 
+				<a href="https://www.facebook.com/pages/Bruce-Willis/112130828803599" target="new_blank"><img class="swapImage {src: 'icons/fb_b.png'}" src="icons/fb_g.png" alt="facebook" /></a>
+				<a href="http://twitter.com/BruceyWillis" target="new_blank"><img class="swapImage {src: 'icons/tw_b.png'}" src="icons/tw_g.png" alt="twitter" /></a><br />
+			</div>
+		</div>
+
+<!-- ======== end THUMBNAIL IMAGES ======== -->
+
+
+
+<!-- ======== BIOs ======== -->
+<div style="display: none;">
+
+
+<!-- ======= BOARD TEAM ======== -->
+
+	<!-- Nicolas Cage -->
+	<div class="bio" id="NicolasCage-bio">
+		<img src="images/default.png" alt="Profile picture" width="380px" height="auto"/>
+		<div class="text">
+			<span class="name">Nicolas Cage</span>
+			<span class="job-title">Executive Director</span> <!-- Job title -->
+			<span class="department">Hollywood Board</span> <!-- Working Department/Sector -->
+			
+			<div class="contactInfo">
+				<a href="mailto:hisemail@email.com"><img title="hisemail@email.com" class="swapImage {src: 'icons/email_b.png'}" src="icons/email_g.png" alt="email" /></a> 
+				<a href="https://www.facebook.com/pages/nicolas-cage-fans/41072651865" target="new_blank"><img class="swapImage {src: 'icons/fb_b.png'}" src="icons/fb_g.png" alt="facebook" /></a>
+				<a href="http://twitter.com/Cage_Nicolas" target="new_blank"><img class="swapImage {src: 'icons/tw_b.png'}" src="icons/tw_g.png" alt="twitter" /></a><br />
+				<span class="website"><a href="http://www.example.com">www.example.com</a></span>
+			</div>
+			
+			<div class="blurb">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Morgan Freeman -->
+	<div class="bio" id="MorganFreeman-bio">
+		<img src="images/default.png" alt="Profile picture" width="380px" height="auto"/>
+		<div class="text">
+			<span class="name">Morgan Freeman</span>
+			<span class="job-title">Executive Director</span> <!-- Job title -->
+			<span class="department">Hollywood Board</span> <!-- Working Department/Sector -->
+			
+			<div class="contactInfo">
+				<a href="mailto:hisemail@email.com"><img title="hisemail@email.com" class="swapImage {src: 'icons/email_b.png'}" src="icons/email_g.png" alt="email" /></a> 
+				<a href="https://www.facebook.com/MorganFreeman" target="new_blank"><img class="swapImage {src: 'icons/fb_b.png'}" src="icons/fb_g.png" alt="facebook" /></a>
+				<a href="http://twitter.com/TheRealMorganF" target="new_blank"><img class="swapImage {src: 'icons/tw_b.png'}" src="icons/tw_g.png" alt="twitter" /></a><br />
+				<span class="website"><a href="http://www.example.com">www.example.com</a></span>
+			</div>
+			
+			<div class="blurb">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Will Smith -->
+	<div class="bio" id="WillSmith-bio">
+		<img src="images/default.png" alt="Profile picture" width="380px" height="auto"/>
+		<div class="text">
+			<span class="name">Will Smith</span>
+			<span class="job-title">Executive Director</span> <!-- Job title -->
+			<span class="department">Hollywood Board</span> <!-- Working Department/Sector -->
+			
+			<div class="contactInfo">
+				<a href="mailto:hisemail@email.com"><img title="hisemail@email.com" class="swapImage {src: 'icons/email_b.png'}" src="icons/email_g.png" alt="email" /></a> 
+				<a href="https://www.facebook.com/WillSmith" target="new_blank"><img class="swapImage {src: 'icons/fb_b.png'}" src="icons/fb_g.png" alt="facebook" /></a>
+				<a href="http://twitter.com/_WillSmith_" target="new_blank"><img class="swapImage {src: 'icons/tw_b.png'}" src="icons/tw_g.png" alt="twitter" /></a><br />
+				<span class="website"><a href="http://www.example.com">www.example.com</a></span>
+			</div>
+			
+			<div class="blurb">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+		</div>
+	</div>
+
+	<!-- Bruce Willis -->
+	<div class="bio" id="BruceWillis-bio">
+		<img src="images/default.png" alt="Profile picture" width="380px" height="auto"/>
+		<div class="text">
+			<span class="name">Bruce Willis</span>
+			<span class="job-title">Executive Director</span> <!-- Job title -->
+			<span class="department">Hollywood Board</span> <!-- Working Department/Sector -->
+			
+			<div class="contactInfo">
+				<a href="mailto:hisemail@email.com"><img title="hisemail@email.com" class="swapImage {src: 'icons/email_b.png'}" src="icons/email_g.png" alt="email" /></a> 
+				<a href="https://www.facebook.com/pages/Bruce-Willis/112130828803599" target="new_blank"><img class="swapImage {src: 'icons/fb_b.png'}" src="icons/fb_g.png" alt="facebook" /></a>
+				<a href="http://twitter.com/BruceyWillis" target="new_blank"><img class="swapImage {src: 'icons/tw_b.png'}" src="icons/tw_g.png" alt="twitter" /></a><br />
+				<span class="website"><a href="http://www.example.com">www.example.com</a></span>
+			</div>
+			
+			<div class="blurb">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+	</div>
+<!-- ======= MANAGEMENT TEAM ======== -->
+<!-- More -->
+<!-- More -->
+
+<!-- ======== end BIOs ======== -->
+</div> <!-- DIV#CONTENT -->
+</body>
+</html>
